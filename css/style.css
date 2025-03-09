@@ -1,0 +1,445 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+html {
+  line-height: 1.5;
+  tab-size: 4;
+  font-family: GT America Trial, sans-serif;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: inherit;
+}
+
+button,
+input {
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  background-color: transparent;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+:disabled {
+  cursor: default;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.bg-1 {
+  background-color: black;
+  color: white;
+}
+
+.img-logo {
+  height: 1.75rem;
+  width: auto;
+}
+
+.help-button {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.center-nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items-align {
+  align-items: center;
+}
+
+.submit-button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  border-width: 2px;
+}
+
+.login-button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: rgb(76 95 213);
+}
+
+.button-div {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.m-x-025>*:not([hidden])~*:not([hidden]) {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.m-x-0375>*:not([hidden])~*:not([hidden]) {
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+}
+
+.m-x-05>*:not([hidden])~*:not([hidden]) {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.m-x-1>*:not([hidden])~*:not([hidden]) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.m-y-5>*:not([hidden])~*:not([hidden]) {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.m-y-0> :not([hidden])~ :not([hidden]) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-search {
+  background-color: rgb(218 219 241);
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.search-div {
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  height: 24rem;
+}
+
+.h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+
+.relative {
+  position: relative;
+}
+
+.search-input {
+  width: 18rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-width: 1px;
+  border-color: rgb(0 0 0);
+  border-radius: 0.125rem;
+}
+
+.icon {
+  position: absolute;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  top: 0.625rem;
+  right: 0.5rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.section-items {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.img-height {
+  height: 5rem;
+}
+
+.button-learn {
+  color: rgb(76 95 213);
+  align-items: center;
+}
+
+.h3-body {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+
+}
+
+.flex-gsb {
+  flex: 1 1 0%;
+}
+
+.p-items {
+  margin-bottom: 0.5rem;
+}
+
+i {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.footer-div {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-gap {
+  row-gap: 1.25rem;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.h3-footer {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+  .min\:hidden {
+    display: none;
+  }
+
+  .min\:flex {
+    display: flex;
+  }
+
+  .img-logo {
+    height: 2.25rem;
+    width: auto;
+  }
+
+  .help-button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    letter-spacing: -0.025em;
+  }
+
+  .min\:w-50 {
+    width: 50%;
+  }
+
+  .search-input {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-width: 1px;
+    border-color: rgb(0 0 0);
+    border-radius: 0.125rem;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .icon {
+    position: absolute;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    top: 1rem;
+    right: 0.5rem;
+  }
+
+  .section-items {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    row-gap: 5rem;
+  }
+
+  .min\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .min\:div-item {
+    max-width: 32rem;
+  }
+
+  .img-height {
+    height: 6rem;
+  }
+
+  .h3-body {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  .p-items {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .min\:m-y-0> :not([hidden])~ :not([hidden]) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .min\:m-x-05>*:not([hidden])~*:not([hidden]) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .footer-div {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-gap {
+    row-gap: 1.25rem;
+    gap: 5rem;
+    margin-bottom: 4rem;
+  }
+
+  .min\:w-auto {
+    width: auto;
+  }
+
+
+}
